@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto+Mono:ital,wght@1.300&display=swap');
+
+.corpo-projects{
+    width: 100%;
+    display: flex;
+    background-image: url(../../assets/img/background-2.jpg);
+    background-size: 100%;
+    color: #fff;
+}
+
+.glasmorphism-projects{
+    background: rgba(228, 31, 31, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(228, 31, 31, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    row-gap: 3rem;
+
+    margin-left: 9rem;
+    height: 75rem;
+    width: 80%;
+}
+
+.title-projects{
+    margin-top: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+}
+
+.area-cards{
+    display: grid;
+    gap: 3rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1f 1fr 1fr;
+    margin-left: 4rem;
+}
+.area-cards a{
+    text-decoration: none;
+}
+
+.select-category{
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+    border-radius: 0.9rem;
+    border: 0.1rem solid #000;
+    margin: 2rem 0;
+    padding: 0.4rem 1.5rem;
+    transition: 0.2s linear;
+    background-color: rgb(112, 7, 7);
+    text-align: center;
+    width: min-content;
+}
+
+.select-category:hover{
+    cursor: pointer;
+}

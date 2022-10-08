@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto+Mono:ital,wght@1.300&display=swap');
+
+
+@keyframes flip-horizontal-bottom {
+    0% {
+              transform: rotateX(0180deg);
+    }
+    100% {
+              transform: rotateX(0);
+    }
+  }
+
+  
+.card-container {
+    width: 80%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color:transparent;
+    border: 1px solid #000;
+
+    box-shadow: 1px 5px 12px -1px #63e8ff;
+
+    transition: 0.2s linear;
+
+    animation: flip-horizontal-bottom 0.4s
+}
+
+.card-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.thumbnail {
+    width: 90%;
+    height: 60%;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.area-info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem;
+    gap: 1rem;
+}
+.card-title{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+}
+

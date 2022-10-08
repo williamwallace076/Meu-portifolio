@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? família=Barlow:wght@500&display=swap');
+
+
+.corpo-contact{
+    height:33.05rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../assets/img/background-2.jpg);
+}
+
+.glasmorphism-contact{
+    background: rgba(228, 31, 31, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(228, 31, 31, 0.12);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 10rem;
+    color: #fff;
+
+    width: 80%;
+}
+
+.message-title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+}
+
+ .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #0000;
+    
+    font-family: 'Roboto Mono', monospace;
+} 
+
+.form input, .form textarea{
+    border-radius: 0.2rem;
+    background: #eeeeee;
+    border: none;
+}
+
+.form input{
+    height: 2rem;
+}
+
+.submit{
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    border-radius: 0.9rem;
+    border: 0.1rem solid #000;
+    padding: 0.4rem 1.5rem;
+    transition: 0.2s linear;
+    width: 50%;
+    align-self: center;
+  }
+  
+  .submit:hover{
+      cursor: pointer;
+      transform: scale(1.2);
+      background-color: #3ca5b8 ;
+      border: 0.1rem solid #fff;
+  }
