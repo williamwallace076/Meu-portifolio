@@ -36,7 +36,7 @@ export default () => {
                     <a href="https://spotify-clone-eta-three.vercel.app/"> <Cards thumbnail={thumbnail4} titulo={`Spotify Premium clone `} desc={`Clone da Página 'Premium' do site Spotfy`}></Cards></a>
                     <a href="https://flappybirdclone.vercel.app/"> <Cards thumbnail={thumbnail5} titulo={`Flappy Bird Clone`} desc={`Clone do jogo flappy bird utilizando JS para Manipular a Dom`}></Cards></a>
                     <a href="https://marvelpelectionplayer.vercel.app/"> <Cards thumbnail={thumbnail6} titulo={`Selção de player Marvel`} desc={`Menu de selção de personagens com css grid`}></Cards></a>
-                    <a href="https://github.com/williamwallace076/Pokedex/blob/master/pokedex.html"> <Cards thumbnail={thumbnail7} titulo={`Pokedex`} desc={`Pokedex Implementada com JS e estilizada com CSS`}></Cards></a>
+                    <a href="https://williamwallace076.github.io/Pokedex/"> <Cards thumbnail={thumbnail7} titulo={`Pokedex`} desc={`Pokedex Implementada com JS e estilizada com CSS`}></Cards></a>
                     <a href="https://cronometro-beige.vercel.app/"> <Cards thumbnail={thumbnail8} titulo={`Cronometro`} desc={`Utilizando JS para implementar um Cronometro`}></Cards></a>
                     <a href="https://formulario-teste-one.vercel.app/"> <Cards thumbnail={thumbnail9} titulo={`Projeto HTML Básico`} desc={`Formulario Cadastral simples com HTMl e CSS`}></Cards></a>
                 </div>
